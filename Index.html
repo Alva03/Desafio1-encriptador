@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title> DESAFIO 1 - ENCRIPTADOR </title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img class="logo" src="Vector.png" alt="logo alura">
+        </a>
+
+    </header>
+
+    <div class="container">
+        <div class="texto-encriptar">
+            <textarea id="texto" style="color: #FFF" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="validar">
+                <p style="color:#FFF"> <i class="fa-solid fa-circle-exclamation"></i> ¡SOLO LETRAS MINUSCULAS, SIN ACENTOS!</p>
+                <div class="botones">
+                    <button class="btnEncriptar">ENCRIPTAR</button>
+                    <button class="btnDecencriptar">DECENCRIPTAR</button>   
+                    <a href="index.html">
+                        <img class="reset" src="reset.png" alt="reset">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="texto-encriptado">
+            <div class="resultado">
+                <img src="Encrip.png" alt="imagen encriptacion">
+                <h3 style="color:#FFF">Ningun mensaje fue encriptado</h3>
+                <p style="color: #FFF">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <p style="color: #FFF">Psst... ¡RECUERDA QUE SOLO LETRAS MINUSCULAS, SIN ACENTOS!</p>
+            </div>
+        </div>
+    </div>
+    <script src="encriptador.js"></script>
+</body>
+
+</html>
